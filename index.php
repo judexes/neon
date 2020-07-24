@@ -224,60 +224,46 @@
                 <div class="justify-content-around row">
                     <div class="col-10 contact-form ">
                         <div class="m-5">
-                            <h2 class="h1-responsive font-weight-bold text-left">Contact us</h2>
+                            <h2 class="font-weight-bold text-left">Contact us</h2>
                             <div class="row">
-                                <!--Grid column-->
-                                <div class="col-md-9 mb-md-0 mb-5">
+                                <div class="col-md-8 mb-md-0 mb-5">
                                     <form id="contact-form" name="contact-form" action="#" method="POST">
-                                        <!--Grid row-->
                                         <div class="row">
-                                            <!--Grid column-->
                                             <div class="col-md-6">
                                                 <div class="md-form mb-0 mt-3">
-                                                    <label for="name" class="">Name*</label>
-                                                    <input type="text" id="name" name="name" class="form-control">
+                                                    <label for="name" class="mb-0 mt-1">Name*</label>
+                                                    <input type="text" id="name" name="name" class="form-control" autocomplete="off">
                                                 </div>
                                             </div>
-                                            <!--Grid column-->
-                                            <!--Grid column-->
                                             <div class="col-md-6">
                                                 <div class="md-form mb-0 mt-3">
-                                                    <label for="email" class="">Email*</label>
-                                                    <input type="text" id="email" name="email" class="form-control">
+                                                    <label for="email" class="mb-0 mt-1">Email*</label>
+                                                    <input type="text" id="email" name="email" class="form-control" autocomplete="on">
                                                 </div>
                                             </div>
-                                            <!--Grid column-->
                                         </div>
-                                        <!--Grid row-->
-                                        <!--Grid row-->
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="md-form mb-0 mt-3">
-                                                    <label for="subject" class="">Subject*</label>
-                                                    <input type="text" id="subject" name="subject" class="form-control">
+                                                    <label for="subject" class="mb-0 mt-1">Subject*</label>
+                                                    <input type="text" id="subject" name="subject" class="form-control" autocomplete="off">
                                                 </div>
                                             </div>
                                         </div>
-                                        <!--Grid row-->
-                                        <!--Grid row-->
                                         <div class="row">
-                                            <!--Grid column-->
                                             <div class="col-md-12">
                                                 <div class="md-form mt-3">
                                                     <label for="message">Your Message*</label>
-                                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" autocomplete="off"></textarea>
                                                 </div>
                                             </div>
                                         </div>
-                                        <!--Grid row-->
                                     </form>
-                                    <div class="text-center text-md-left">
+                                    <div class="text-center text-md-left send mt-4">
                                         <a class="btn btn-primary">SEND</a>
                                     </div>
                                 </div>
-                                <!--Grid column-->
-                                <!--Grid column-->
-                                <div class="col-md-3 text-center">
+                                <div class="col-md-4  text-center">
                                     <ul class="list-unstyled mb-0">
                                         <li><i class="fas fa-map-marker-alt fa-2x"></i>
                                             <p>San Francisco, CA 94126, USA</p>
@@ -296,6 +282,24 @@
                     </div>
                 </div>
                 <div id="services"></div>
+            </div>
+        </section>
+        <!-- FOOTER SECTION -->
+        <section class="footer-section">
+            <div class="container">
+                <div class="row py-4 d-flex align-items-center">
+                    <div class="col-md-8 text-center text-md-left mb-4 mb-md-0">
+                        <div class=""></div>
+                        <a href="">Home</a>
+                        <a href="">About me</a>
+                        <a href="">Portfolio</a>
+                        <a href="">Blog</a>
+                        <a href="">Contact</a>
+                    </div>
+                    <div class="col-md-4 text-center text-md-right">
+                        <p>&copy neon 2020. All Rights Reserved.</p>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- TEST SECTION -->
