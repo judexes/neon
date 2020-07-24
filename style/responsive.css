@@ -1,0 +1,67 @@
+
+
+/* On screens that are 415px wide or less*/
+@media screen and (max-width: 415px) {
+    .hero-section {
+        /* background-image: url(../img/hero-mobile.png);
+        background-color: #2862f759; */
+    }
+    .splash {
+        /* background-color: #d3d7e282; */
+        min-height: inherit;
+    }
+    .tools-section p {
+        font-size: x-small;
+    }
+}
+
+
+/* On screens that are 770px wide or less*/
+@media screen and (max-width: 770px) {
+    .profile img {
+        max-width: 100%;
+    }
+}
+/* On screens that are 415px wide or less*/
+@media screen and (max-width: 415px) {
+    .title {
+        font-size: 1.6rem;
+    }
+    .tools-section p {
+        font-size: x-small!important;
+    }
+}
+
+/* On screens that are 415px wide or more*/
+@media screen and (min-width: 415px) {
+    .tools-section p {
+        font-size: small;
+    }
+}
+
+/* PHOTO GRID */
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+	flex: 50%;
+	max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* CENTER HERO TEXT ON MOBILE*/
+@media (max-width: 414px) {
+    .splash {
+        text-align: center!important;
+    }
+    .hello-name {
+        font-size: 2.5rem;
+    }
+}
