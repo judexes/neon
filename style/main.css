@@ -225,7 +225,20 @@ a:hover, a:active, a:focus {
     padding: 4rem 0rem;
 }
 .contact-form-section .contact-form {
-    background: #000000;
+    background: #000000a6;
+}
+.contact-form-section .form-control {
+    padding: 0rem;
+    color: #ced4da;
+    background-color: #0000;
+    border: 1px solid #ced4da;
+    border-radius: 0rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.contact-form-section .form-control:focus {
+    color: #495057;
+    background-color: #ffffff21;
+    box-shadow: none;
 }
 .services-section {
     padding-bottom: 3rem;

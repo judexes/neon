@@ -233,7 +233,7 @@
                                         <div class="row">
                                             <!--Grid column-->
                                             <div class="col-md-6">
-                                                <div class="md-form mb-0">
+                                                <div class="md-form mb-0 mt-3">
                                                     <label for="name" class="">Name*</label>
                                                     <input type="text" id="name" name="name" class="form-control">
                                                 </div>
@@ -241,7 +241,7 @@
                                             <!--Grid column-->
                                             <!--Grid column-->
                                             <div class="col-md-6">
-                                                <div class="md-form mb-0">
+                                                <div class="md-form mb-0 mt-3">
                                                     <label for="email" class="">Email*</label>
                                                     <input type="text" id="email" name="email" class="form-control">
                                                 </div>
@@ -252,7 +252,7 @@
                                         <!--Grid row-->
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <div class="md-form mb-0">
+                                                <div class="md-form mb-0 mt-3">
                                                     <label for="subject" class="">Subject*</label>
                                                     <input type="text" id="subject" name="subject" class="form-control">
                                                 </div>
@@ -263,7 +263,7 @@
                                         <div class="row">
                                             <!--Grid column-->
                                             <div class="col-md-12">
-                                                <div class="md-form">
+                                                <div class="md-form mt-3">
                                                     <label for="message">Your Message*</label>
                                                     <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
                                                 </div>
