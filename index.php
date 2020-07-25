@@ -223,7 +223,7 @@
             <div class="container">
                 <div class="justify-content-around row">
                     <div class="col-10 contact-form ">
-                        <div class="m-5">
+                        <div class="m-2 m-sm-5 m-md-5 m-lg-5">
                             <h2 class="font-weight-bold text-left">Contact us</h2>
                             <div class="row">
                                 <div class="col-md-8 mb-md-0 mb-5">
