@@ -289,7 +289,7 @@
         <section class="footer-section">
             <div class="container">
                 <div class="row py-4 d-flex align-items-center">
-                    <div class="col-md-8 text-center text-md-left mb-4 mb-md-0">
+                    <div class="col-md-7 text-center text-md-left mb-4 mb-md-0">
                         <div class=""></div>
                         <a href="">Home</a>
                         <a href="">About me</a>
@@ -297,7 +297,7 @@
                         <a href="">Blog</a>
                         <a href="">Contact</a>
                     </div>
-                    <div class="col-md-4 text-center text-md-right">
+                    <div class="col-md-5 text-center text-md-right">
                         <p>&copy 2020</p>
                     </div>
                 </div>

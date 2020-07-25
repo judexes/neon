@@ -264,13 +264,18 @@ a:hover, a:active, a:focus {
     max-width: 13px;
 }
 .contact-form-section li p {
-    font-size: small;
+    font-size: 14px;
 }
 .title {
     font-size: 30px;
 }
 .footer-section a {
     padding: .6rem .5rem;
+    font-size: 13px;
+}
+.footer-section p {
+    font-size: 15px;
+    margin-bottom: 0rem; 
 }
 .services-section {
     padding-bottom: 3rem;
