@@ -73,6 +73,12 @@ a:hover, a:active, a:focus {
 .bg-color-3 {
     background-color:#C280FF;
 }
+.subtitle {
+    font-size: 13px;
+}
+.title {
+    font-size: 18px;
+}
 .navbar-main {
     padding-left: 4rem;
     padding-right: 4rem;
@@ -213,7 +219,7 @@ a:hover, a:active, a:focus {
     padding-top: 3rem;
 }
 .contact-form-section {
-    background-image: url(../img/contact-bg.png);
+    background-image: url(../img/hero2.png);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -236,8 +242,8 @@ a:hover, a:active, a:focus {
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .contact-form-section .form-control:focus {
-    color: #495057;
-    background-color: #ffffff21;
+    color: #ced4da;
+    /*background-color: #ffffff21;*/
     box-shadow: none;
 }
 .contact-form-section .btn-primary {
@@ -253,6 +259,15 @@ a:hover, a:active, a:focus {
 }
 .contact-form-section .send a {
     padding: .6rem 2rem;
+}
+.contact-form-section li img {
+    max-width: 13px;
+}
+.contact-form-section li p {
+    font-size: small;
+}
+.title {
+    font-size: 30px;
 }
 .footer-section a {
     padding: .6rem .5rem;

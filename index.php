@@ -207,8 +207,8 @@
                     </div>
                     <div class="col-sm-7">
                         <div class="about-us about-us-description ml-2 mr-2 text-left">
-                            <h6 class="subtitle font-weight-bold text-color-3">12 JUlY 2020</h6>
-                            <h6 class="title font-weight-bold">NEON LIGHTS: How I Started Photographing<br>in Colour.</h6>
+                            <h6 class="subtitle font-weight-bold text-color-3">12 JULY 2020</h6>
+                            <h6 class="font-weight-bold">NEON LIGHTS: How I Started Photographing<br>in Colour.</h6>
                             <p class="title-description">Lorem ipsum dolor sit amet, vix odio integre ei. Nulla minimum patrioque vix ad, id cum habeo delicata, ne minim comprehensam eos. Eu vim tempor aliquip. Docendi delectus insolens pri ei, no vel ludus putant persius.</p>
                             <br>
                             <p class="title-description">Facilis denique eam ut, ad accusamus cotidieque eos. Quem vivendum signiferumque in usu, ea eam quas aeque iriure. Solum voluptaria referrentur</p>
@@ -254,7 +254,7 @@
                                             <div class="col-md-12">
                                                 <div class="md-form mt-3">
                                                     <label for="message">Your Message*</label>
-                                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" autocomplete="off"></textarea>
+                                                    <textarea type="text" id="message" name="message" rows="3" class="form-control md-textarea" autocomplete="off"></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -263,16 +263,17 @@
                                         <a class="btn btn-primary">SEND</a>
                                     </div>
                                 </div>
-                                <div class="col-md-4  text-center">
-                                    <ul class="list-unstyled mb-0">
-                                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                                            <p>San Francisco, CA 94126, USA</p>
+                                <div class="col-md-4 text-center">
+                                    <ul class="list-unstyled mb-0 mt-5 text-left">
+                                        <li>
+                                            <p><img src="img/phone.png">&nbsp;&nbsp;+1 56775 345 34</p>
                                         </li>
-                                        <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                                            <p>+ 01 234 567 89</p>
+                                        <li>
+                                            <p><img src="img/email.png">&nbsp;&nbsp;neon@example.com</p>
                                         </li>
-                                        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                                            <p>contact@mdbootstrap.com</p>
+                                        <li>
+                                            <p><img src="img/home.png">&nbsp;&nbsp;23 fillory road,
+                                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Off Thomas Flint,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New York.</p>
                                         </li>
                                     </ul>
                                 </div>
@@ -297,7 +298,7 @@
                         <a href="">Contact</a>
                     </div>
                     <div class="col-md-4 text-center text-md-right">
-                        <p>&copy neon 2020. All Rights Reserved.</p>
+                        <p>&copy 2020</p>
                     </div>
                 </div>
             </div>
