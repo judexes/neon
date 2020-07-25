@@ -223,7 +223,7 @@ a:hover, a:active, a:focus {
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: inherit;
     min-height: 300px;
     padding: 4rem 0rem;
 }
