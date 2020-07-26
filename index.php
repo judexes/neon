@@ -13,6 +13,10 @@
         <meta name="language" content="English">
         <meta name="keywords" content="Template, HTML, Cyber, Photographer">
         <!-- Hero CSS -->
+        <!-- Lightbos CSS -->
+        <link rel="stylesheet" href="style/vendors/lightbox2-2.1.1/lightbox.min.css">
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="style/vendors/animate.css/4.0.0/animate.min.css"/>
         <!-- Bootstrap core CSS -->
         <link href="style/vendors/bootstrap.min.css" rel="stylesheet">
         <!-- Custom styles for this template -->
@@ -57,8 +61,8 @@
             <div class="splash">
                 <div class="container">
                     <h1 class="display-4 font-weight-bolder text-color-3">Cyber</h1>
-                    <h1 class="display-4 font-weight-bolder">Photography.</h1>
-                    <a class="btn btn-primary btn-lg text-uppercase" href="#" role="button">Book Session</a>
+                    <p class="display-4 font-weight-bolder">Photography<span  class=" animate__animated animate__backInRight animate__delay-1s">.</span></p>
+                    <a class="btn btn-primary btn-lg text-uppercase  animate__animated animate__backInRight animate__delay-1s" href="#" role="button">Book Session</a>
                 </div>
                 <div id="about"></div>
             </div>
@@ -306,6 +310,8 @@
         <!-- TEST SECTION -->
         <section class="test-section">
         </section>
+        <!-- Lightbox JS -->
+        <script src="javascript/vendors/lightbox2-2.1.1/lightbox-plus-jquery.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="javascript/vendors/bootstrap.bundle.js"></script>
         <script src="javascript/script.js"></script>
