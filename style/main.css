@@ -94,6 +94,9 @@ a:hover, a:active, a:focus {
     height: 40px;
     width: 40px;
 }
+.button:focus {
+    outline: 1px transparent;
+}
 .navbar-toggler-icon {
     width: 1em;
     height: 1em;
@@ -236,7 +239,7 @@ a:hover, a:active, a:focus {
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: inherit;
+    background-size: cover;
     min-height: 300px;
     padding: 4rem 0rem;
 }
