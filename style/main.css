@@ -86,6 +86,19 @@ a:hover, a:active, a:focus {
 .navbar-main li {
     font-size: 14px;
 }
+.navbar-toggler, .navbar-toggler:active, .navbar-toggler:focus {
+    padding: .5rem .5rem;
+    font-size: 1rem;
+    border: 2px solid #ffffff;
+    border-radius: 0rem;
+    height: 40px;
+    width: 40px;
+}
+.navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
+    background-color: #ffffffbf;
+}
 @media (max-width: 991.98px) {
     .offcanvas-collapse {
         background-color: #0033b6;

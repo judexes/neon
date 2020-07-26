@@ -23,8 +23,7 @@
         <?php include "includes/dbconn.php"; // Using database connection file here ?>
         <div id="top offcanvas-close"></div>
         <!-- MENU SECTION -->
-        <section class="">
-        </section>
+        
         <!-- HERO SECTION -->
         <section class="hero-section">
             <!-- ------------------------ MAIN NAV ----------------------- -->
@@ -34,7 +33,7 @@
                     <a class="navbar-brand mr-auto mr-lg-0 reload-page" href="#" id="Reloadpage" style="min-width: 80px;">
                         <img src="img/logo.png" alt="Logo Image" id="logo">
                     </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse  navbar-collapse justify-content-end" id="navbarsExample08">
@@ -242,6 +241,7 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="md-form mb-0 mt-3">
