@@ -43,16 +43,16 @@
                     <div class="collapse  navbar-collapse justify-content-end" id="navbarsExample08">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#our-services">About me</a>
+                                <a class="nav-link" href="#about">About me</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#our-stylist">Portfolio</a>
+                                <a class="nav-link" href="#photography">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#profile">Blog</a>
+                                <a class="nav-link" href="#blog">Blog</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -130,6 +130,7 @@
                         </div>
                     </div>
                 </div>
+                <div id="photography"></div>
             </div>
         </section>
         <!-- SHOOTS SECTION -->
@@ -188,7 +189,7 @@
                     </div>
                 </div>
             </div>
-            <div id="portfolio"></div>
+            <div id="blog"></div>
         </section>
         <!-- BLOG SECTION -->
         <section class="blog-section">
@@ -218,7 +219,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="services"></div>
+                <div id="contact"></div>
             </div>
         </section>
         <!-- conatct SECTION -->
