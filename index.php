@@ -64,8 +64,8 @@
                     <p class="display-4 font-weight-bolder">Photography<span  class=" animate__animated animate__backInRight animate__delay-1s">.</span></p>
                     <a class="btn btn-primary btn-lg text-uppercase  animate__animated animate__backInRight animate__delay-1s" href="#" role="button">Book Session</a>
                 </div>
-                <div id="about"></div>
             </div>
+            <div id="about"></div>
         </section>
         <!-- ABOUT SECTION -->
         <section class="about-us-section">
@@ -89,8 +89,8 @@
                         </div>
                     </div>
                 </div>
-                <div id="services"></div>
             </div>
+            <div id="tools"></div>
         </section>
         <!-- TOOLS SECTION -->
         <section class="tools-section">
