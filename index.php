@@ -12,7 +12,11 @@
         <meta name="robots" content="index, follow">
         <meta name="language" content="English">
         <meta name="keywords" content="Template, HTML, Cyber, Photographer">
-        <!-- Hero CSS -->
+
+        <link href="style/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="style/vendors/ionicons/css/ionicons.min.css" rel="stylesheet">
+        <link href="style/vendors/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="style/vendors/venobox/venobox.css" rel="stylesheet">
         <!-- Lightbos CSS -->
         <link rel="stylesheet" href="style/vendors/lightbox2-2.1.1/lightbox.min.css">
         <!-- Animate CSS -->
@@ -135,8 +139,7 @@
         </section>
         <!-- SHOOTS SECTION -->
         <section class="shoots-section ml-2 mr-2">
-            <div class="container text-center">
-                
+            <div class="container text-center">                
                 <div class="row services">
                     <div class="col-12 pb-md-4 text-left">
                         <h6 class="subtitle font-weight-bold text-color-3">Services</h6>
@@ -148,43 +151,65 @@
                 <div class="row text-center justify-content-center">
                     <div class="photo-row">
                         <div class="column">
-                            <img src="img/shoot1.png" class="img-fluid pb-1">
-                            <img src="img/shoot2.png" class="img-fluid pb-1">
+                            <a class="preview-image-link img-fluid" href="img/shoot1.png" data-lightbox="preview-screen-set" data-title="Click the right half of the image to move forward.">
+                                <img class="preview-screen-image img-fluid animate__animated animate__backInLeft animate__delay-2s pb-1" src="img/shoot1.png" alt=""/>
+                            </a>
+                            <a class="preview-image-link" href="img/shoot2.png" data-lightbox="preview-screen-set" data-title="Click the right half of the image to move forward.">
+                                <img class="preview-screen-image img-fluid animate__animated animate__backInLeft animate__delay-2s pb-1" src="img/shoot2.png" alt=""/>
+                            </a>
                         </div>
                         
                         <div class="column column-middle">
-                            <img src="img/shoot3.png" class="img-fluid">
+                            <a class="preview-image-link img-fluid" href="img/shoot3.png" data-lightbox="preview-screen-set" data-title="Click the right half of the image to move forward.">
+                                <img class="preview-screen-image img-fluid pb-1" src="img/shoot3.png" alt=""/>
+                            </a>
                         </div>
                         
                         <div class="column">
-                            <img src="img/shoot4.png" class="img-fluid pb-1">
-                            <img src="img/shoot5.png" class="img-fluid pb-1">
+                            <a class="preview-image-link img-fluid" href="img/shoot4.png" data-lightbox="preview-screen-set" data-title="Click the right half of the image to move forward.">
+                                <img class="preview-screen-image img-fluid animate__animated animate__backInRight animate__delay-2s pb-1" src="img/shoot4.png" alt=""/>
+                            </a>
+                            <a class="preview-image-link" href="img/shoot5.png" data-lightbox="preview-screen-set" data-title="Click the right half of the image to move forward.">
+                                <img class="preview-screen-image img-fluid animate__animated animate__backInRight animate__delay-2s pb-1" src="img/shoot5.png" alt=""/>
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="row text-center justify-content-center">
                     <div class="photo-row">
                         <div class="column column-middle column-50">
-                            <img src="img/shoot6.png" class="img-fluid">
+                            <a class="preview-image-link" href="img/shoot6.png" data-lightbox="preview-screen-set" data-title="Click the right half of the image to move forward.">
+                                <img class="preview-screen-image img-fluid animate__animated animate__backInRight animate__delay-2s pb-1" src="img/shoot6.png" alt=""/>
+                            </a>
                         </div>
                         <div class="column column-middle column-50">
-                            <img src="img/shoot7.png" class="img-fluid">
+                            <a class="preview-image-link" href="img/shoot7.png" data-lightbox="preview-screen-set" data-title="Click the right half of the image to move forward.">
+                                <img class="preview-screen-image img-fluid animate__animated animate__backInRight animate__delay-2s pb-1" src="img/shoot7.png" alt=""/>
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="row text-center justify-content-center">
                     <div class="photo-row">
                         <div class="column column-25">
-                            <img src="img/shoot8.png" class="img-fluid">
+                            <a class="preview-image-link" href="img/shoot8.png" data-lightbox="preview-screen-set" data-title="Click the right half of the image to move forward.">
+                                <img class="preview-screen-image img-fluid animate__animated animate__backInRight animate__delay-2s pb-1" src="img/shoot8.png" alt=""/>
+                            </a>
                         </div>
                         <div class="column column-25">
-                            <img src="img/shoot9.png" class="img-fluid">
+                            <a class="preview-image-link" href="img/shoot9.png" data-lightbox="preview-screen-set" data-title="Click the right half of the image to move forward.">
+                                <img class="preview-screen-image img-fluid animate__animated animate__backInRight animate__delay-2s pb-1" src="img/shoot9.png" alt=""/>
+                            </a>
                         </div>
                         <div class="column column-25">
-                            <img src="img/shoot10.png" class="img-fluid">
+                            <a class="preview-image-link" href="img/shoot10.png" data-lightbox="preview-screen-set" data-title="Click the right half of the image to move forward.">
+                                <img class="preview-screen-image img-fluid animate__animated animate__backInRight animate__delay-2s pb-1" src="img/shoot10.png" alt=""/>
+                            </a>
                         </div>
                         <div class="column column-25">
-                            <img src="img/shoot11.png" class="img-fluid">
+                            <a class="preview-image-link" href="img/shoot11.png" data-lightbox="preview-screen-set" data-title="Click the right half of the image to move forward.">
+                                <img class="preview-screen-image img-fluid animate__animated animate__backInRight animate__delay-2s pb-1" src="img/shoot11.png" alt=""/>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -310,8 +335,14 @@
         </section>
         <!-- TEST SECTION -->
         <section class="test-section">
+
         </section>
-        <!-- Lightbox JS -->
+        
+        <script src="javascript/vendors/jquery.easing/jquery.easing.min.js"></script>
+        <script src="javascript/vendors/php-email-form/validate.js"></script>
+        <script src="javascript/vendors/waypoints/jquery.waypoints.min.js"></script>
+        <script src="javascript/vendors/counterup/jquery.counterup.min.js"></script>
+        <script src="javascript/vendors/owl.carousel/owl.carousel.min.js"></script>
         <script src="javascript/vendors/lightbox2-2.1.1/lightbox-plus-jquery.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="javascript/vendors/bootstrap.bundle.js"></script>
